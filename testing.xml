@@ -1,0 +1,7 @@
+<suite name="TestNGDemoSuite">
+  <test name="DemoTest">
+    <classes>
+      <class name="org.CalculatorTest" />
+    </classes>
+  </test>
+</suite>
