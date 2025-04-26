@@ -30,4 +30,10 @@ public class CalculatorTest {
         int result = calculator.add(-2, 5);
         Assert.assertEquals(result, 3, "Addition with negatives failed");
     }
+
+    @Test
+    public void testAdditionMix() {
+        int result = calculator.add(5, -5);
+        Assert.assertEquals(result, 3, "Addition with negatives failed");
+    }
 }
